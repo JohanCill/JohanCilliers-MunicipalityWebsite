@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\MunicipalityWebsite\\",
+  "WorkspaceRootPath": "G:\\Github\\JohanCilliers-MunicipalityWebsite\\MunicipalityWebsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F2DE4C7-1317-4DD5-B164-C5868FC14ABB}|MunicipalityWebsite\\MunicipalityWebsite.csproj|g:\\municipalitywebsite\\municipalitywebsite\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{2F2DE4C7-1317-4DD5-B164-C5868FC14ABB}|MunicipalityWebsite\\MunicipalityWebsite.csproj|g:\\github\\johancilliers-municipalitywebsite\\municipalitywebsite\\municipalitywebsite\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{2F2DE4C7-1317-4DD5-B164-C5868FC14ABB}|MunicipalityWebsite\\MunicipalityWebsite.csproj|solutionrelative:municipalitywebsite\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StyleSheet.css",
-              "DocumentMoniker": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\css\\StyleSheet.css",
+              "DocumentMoniker": "G:\\Github\\JohanCilliers-MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\css\\StyleSheet.css",
               "RelativeDocumentMoniker": "MunicipalityWebsite\\wwwroot\\css\\StyleSheet.css",
-              "ToolTip": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\css\\StyleSheet.css",
+              "ToolTip": "G:\\Github\\JohanCilliers-MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\css\\StyleSheet.css",
               "RelativeToolTip": "MunicipalityWebsite\\wwwroot\\css\\StyleSheet.css",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAHkAAAANAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAH4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-04-01T11:29:47.812Z",
               "EditorCaption": ""

@@ -7932,11 +7932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite.csproj",
+      "projectUniqueName": "G:\\Github\\JohanCilliers-MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite.csproj",
       "projectName": "MunicipalityWebsite",
-      "projectPath": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite.csproj",
+      "projectPath": "G:\\Github\\JohanCilliers-MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite.csproj",
       "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-      "outputPath": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\obj\\",
+      "outputPath": "G:\\Github\\JohanCilliers-MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",

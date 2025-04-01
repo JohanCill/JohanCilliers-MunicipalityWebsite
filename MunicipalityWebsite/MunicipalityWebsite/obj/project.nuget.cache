@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "umkG4AImPkQ=",
+  "dgSpecHash": "ZjpqI8Y/dTw=",
   "success": true,
-  "projectFilePath": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite.csproj",
+  "projectFilePath": "G:\\Github\\JohanCilliers-MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite\\MunicipalityWebsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\johan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

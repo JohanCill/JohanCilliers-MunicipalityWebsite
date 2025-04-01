@@ -17,47 +17,47 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MunicipalityWebsite
 build_property.RootNamespace = MunicipalityWebsite
-build_property.ProjectDir = G:\MunicipalityWebsite\MunicipalityWebsite\
+build_property.ProjectDir = G:\Github\JohanCilliers-MunicipalityWebsite\MunicipalityWebsite\MunicipalityWebsite\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\MunicipalityWebsite\MunicipalityWebsite
+build_property.MSBuildProjectDirectory = G:\Github\JohanCilliers-MunicipalityWebsite\MunicipalityWebsite\MunicipalityWebsite
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Citizen/GetDetailsCitizen.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Citizen/GetDetailsCitizen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aXplblxHZXREZXRhaWxzQ2l0aXplbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Citizen/Index.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Citizen/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aXplblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Home/Index.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Reports/GetDetailsReport.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Reports/GetDetailsReport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xHZXREZXRhaWxzUmVwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Reports/Index.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Reports/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Service/GetDetailsService.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Service/GetDetailsService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxHZXREZXRhaWxzU2VydmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Service/Index.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Staff/GetDetailsStaff.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Staff/GetDetailsStaff.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcR2V0RGV0YWlsc1N0YWZmLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/MunicipalityWebsite/MunicipalityWebsite/Views/Staff/Index.cshtml]
+[G:/Github/JohanCilliers-MunicipalityWebsite/MunicipalityWebsite/MunicipalityWebsite/Views/Staff/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
