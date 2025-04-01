@@ -1,0 +1,127 @@
+﻿
+nav {
+    padding: 15px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #493628;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Prevent content from hiding under the navbar */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.homePage {
+    background-image: url('/Images/CityBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Page {
+    width: 50%;
+    height: 800px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+div.AllCitizens .centerTable {
+    display: block; 
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll; 
+    padding-top: 20px;
+}
+
+.centerTable th, .centerTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.inputFields {
+    width: 50%;
+    margin-left: 5px;
+}
+.AllCitizens {
+    width: 50%;
+}
+
+.collapsible {
+    background-color: #493628;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #AB886D;
+}
+
+.Content-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+}
+body {
+    background-color: #D6C0B3;
+}
+.centerTable::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.detailPage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

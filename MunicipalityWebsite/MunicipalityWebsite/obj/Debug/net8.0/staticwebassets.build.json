@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "plmOI94Gvu+QU7VZIfTIG2kiWvlEQT/NAbknlP1sm/g=",
+  "Source": "MunicipalityWebsite",
+  "BasePath": "_content/MunicipalityWebsite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MunicipalityWebsite\\wwwroot",
+      "Source": "MunicipalityWebsite",
+      "ContentRoot": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\",
+      "BasePath": "_content/MunicipalityWebsite",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "MunicipalityWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\",
+      "BasePath": "_content/MunicipalityWebsite",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    },
+    {
+      "Identity": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\Images\\CityBackground.jpg",
+      "SourceId": "MunicipalityWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\",
+      "BasePath": "_content/MunicipalityWebsite",
+      "RelativePath": "Images/CityBackground.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\CityBackground.jpg"
+    }
+  ]
+}

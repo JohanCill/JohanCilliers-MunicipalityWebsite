@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\Images\\CityBackground.jpg",
+      "PackagePath": "staticwebassets\\Images\\CityBackground.jpg"
+    },
+    {
+      "Id": "G:\\MunicipalityWebsite\\MunicipalityWebsite\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MunicipalityWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MunicipalityWebsite.props",
+      "PackagePath": "build\\MunicipalityWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MunicipalityWebsite.props",
+      "PackagePath": "buildMultiTargeting\\MunicipalityWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MunicipalityWebsite.props",
+      "PackagePath": "buildTransitive\\MunicipalityWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

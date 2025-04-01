@@ -1,0 +1,29 @@
+﻿@model MunicipalityWebsite.Models.Staff
+
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Citizen/Index">Citizens</a></li>
+        <li><a href="/Staff/Index">Staff</a></li>
+        <li><a href="/Reports/Index">Reports</a></li>
+    </ul>
+</nav>
+
+<div class="detailPage">
+    <h3>Staff Details</h3>
+        @if (Model != null)
+        {
+            <div>
+                <p><strong>Full Name:</strong> @Model.FullName</p>
+                <p><strong>Address:</strong> @Model.Position</p>
+                <p><strong>Department:</strong> @Model.Department</p>
+                <p><strong>Email:</strong> @Model.Email</p>
+                <p><strong>PhoneNumber:</strong> @Model.PhoneNumber</p>
+                <p><strong>HireDate:</strong> @Model.HireDate</p>
+            </div>
+        }
+        else
+        {
+            <p>No staff details available.</p>
+        }
+</div>

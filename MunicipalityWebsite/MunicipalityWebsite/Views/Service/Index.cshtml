@@ -1,0 +1,144 @@
+﻿@model List<MunicipalityWebsite.Models.Service>
+
+
+<link rel="stylesheet" href="~/css/StyleSheet.css" asp-append-version="true" />
+<style>
+	body {
+		align-items: center;
+		margin: 10px;
+		display: flex;
+	}
+</style>
+
+<nav>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/Citizen/Index">Citizens</a></li>
+		<li><a href="/Staff/Index">Staff</a></li>
+		<li><a href="/Reports/Index">Reports</a></li>
+		<li><a href="/Service/Index">Service</a></li>
+	</ul>
+</nav>
+<div class="AllCitizens">
+	<h2>Service List</h2>
+	<div class="centerTable">
+		<table>
+			<tr>
+				<th>RequestID</th>
+				<th>CitizenID</th>
+				<th>ServiceType</th>
+				<th>RequestDate</th>
+				<th>Status</th>
+
+			</tr>
+			@foreach (var requests in Model)
+			{
+				<tr>
+					<td>@requests.RequestID</td>
+					<td>@requests.CitizenID</td>
+					<td>@requests.ServiceType</td>
+					<td>@requests.RequestDate</td>
+					<td>@requests.Status</td>
+				</tr>
+			}
+		</table>
+	</div>
+</div>
+<div class="inputFields">
+
+
+	<form action="/Service/CreateRequest" method="post">
+
+		<button type="button" class="collapsible"><b>Create new Request</b></button>
+		<div class="content">
+			<div class="Content-wrapper">
+
+				<label for="CitizenID">CitizenID</label>
+				<input type="number" id="CitizenID" name="CitizenID" required />
+
+				<label for="ServiceType">ServiceType</label>
+				<input type="text" id="ServiceType" name="ServiceType" required />
+
+				<label for="Status">Status</label>
+				<input type="text" id="Status" name="Status" required />
+
+				<button type="submit">Submit</button>
+			</div>
+		</div>
+
+		
+	</form>
+
+
+	<form action="/Service/EditStatus" method="post">
+
+		<button type="button" class="collapsible"><b>Update Status</b></button>
+		<div class="content">
+			<div class="Content-wrapper">
+				<label for="CitizenID">Citizen ID</label>
+				<input type="number" id="CitizenID" name="CitizenID" required />
+
+				<label for="Status">Status</label>
+				<input type="text" id="Status" name="Status" required />
+
+				<button type="submit">Update Status</button>
+			</div>
+		</div>
+
+
+		
+	</form>
+
+
+	<form action="/Service/DeleteRequest" method="post">
+
+		<button type="button" class="collapsible"><b>Delete Request</b></button>
+		<div class="content">
+			<div class="Content-wrapper">
+
+				<label for="CitizenID">Citizen ID</label>
+				<input type="number" id="CitizenID" name="CitizenID" required />
+
+				<button type="submit" onclick="return confirm('Are you sure you want to delete this citizen?')">
+					Delete Request
+				</button>
+
+			</div>
+		</div>
+	</form>
+
+
+	<form action="/Service/GetDetailsService" method="get">
+
+		<button type="button" class="collapsible"><b>Citizen Details</b></button>
+		<div class="content">
+			<div class="Content-wrapper">
+
+				<label for="CitizenID">Citizen ID</label>
+				<input type="number" id="CitizenID" name="CitizenID" required />
+				<button type="submit">Get Details</button>
+
+			</div>
+		</div>
+
+	</form>
+
+</div>
+
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+		debugger
+		coll[i].addEventListener("click", function () {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+				content.style.display = "none";
+			} else {
+				content.style.display = "block";
+			}
+		});
+	}
+</script>

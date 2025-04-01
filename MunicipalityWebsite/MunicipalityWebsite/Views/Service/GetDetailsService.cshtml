@@ -1,0 +1,31 @@
+﻿@model MunicipalityWebsite.Models.Service
+
+<link rel="stylesheet" href="~/css/StyleSheet.css" asp-append-version="true" />
+
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Citizen/Index">Citizens</a></li>
+        <li><a href="/Staff/Index">Staff</a></li>
+        <li><a href="/Reports/Index">Reports</a></li>
+        <li><a href="/Service/Index">Service</a></li>
+    </ul>
+</nav>
+<div class="detailPage">
+    <h3>Service Details</h3>
+
+        @if (Model != null)
+        {
+        <div>
+                <p><strong>Full Name:</strong> @Model.RequestID</p>
+                <p><strong>Address:</strong> @Model.CitizenID</p>
+                <p><strong>Phone Number:</strong> @Model.ServiceType</p>
+                <p><strong>Email:</strong> @Model.RequestDate</p>
+                <p><strong>Date of Birth:</strong> @Model.Status</p>
+        </div>
+        }
+        else
+        {
+            <p>No citizen details available.</p>
+        }
+</div>

@@ -1,0 +1,54 @@
+﻿@model MunicipalityWebsite.Models.Reports
+
+<link rel="stylesheet" href="~/css/StyleSheet.css" asp-append-version="true" />
+<style>
+    body {
+        align-items: center;
+        margin: 10px;
+        display: flex;
+    }
+</style>
+
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Citizen/Index">Citizens</a></li>
+        <li><a href="/Staff/Index">Staff</a></li>
+        <li><a href="/Reports/Index">Reports</a></li>
+        <li><a href="/Service/Index">Service</a></li>
+    </ul>
+</nav>
+
+<div class="detailPage">
+<h3>Report Details</h3>
+@if (Model != null)
+{
+    <div>
+        <form action="/Reports/UpdateReport" method="post">
+
+            <label>ReportID:</label>
+            <label>@Model.ReportID</label>
+            <input type="hidden" name="ReportID" value="@Model.ReportID" />
+
+            <label>CitizenID:</label>
+            <label>@Model.CitizenID</label>
+            <input type="hidden" name="CitizenID" value="@Model.CitizenID" />
+
+            <label for="ReportType">ReportType:</label>
+            <input type="text" id="ReportType" name="ReportType" required value="@Model.ReportType" />
+
+            <label for="Details">Details:</label>
+            <input type="text" id="Details" name="Details" required value="@Model.Details"/>
+
+            <label for="Status">Status:</label>
+            <input type="text" id="Status" name="Status" required value="@Model.Status" />
+
+            <button type="submit">Save</button>
+        </form>
+    </div>
+}
+else
+{
+    <p>No Report details available.</p>
+}
+</div>
